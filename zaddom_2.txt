@@ -1,0 +1,16 @@
+1. it config --global user.name MagUlitka
+git config --global user.email magdalena.cyra9@gmail.com
+git config --global core.autocrlf true
+2. Stworzenie pilku tekstowego zaddom_2
+4. git init 
+stworzenie repozytorium zaddom1 na githubie wraz z plikiem README.md
+git clone https://github.com/MagUlitka/zaddom1
+5. stworzenie pliku tekstowego przyklad.txt
+git add .
+6. git add .
+git commit -m "second  commit"
+git push
+git add .
+git commit -m "third  commit"
+git push
+7. git reset HEAD~2

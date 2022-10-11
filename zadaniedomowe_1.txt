@@ -1,0 +1,34 @@
+1. z:\windows\desktop\lab2>git config --global user.name MagUlitka
+
+z:\windows\desktop\lab2>git config --global user.email magdalena.cyra9@gmail.com
+
+z:\windows\desktop\lab2>git config --global core.autocrlf true
+
+2. tworzenie pliku tekstowego w folderze lab2 "zadaniedomowe_1.txt" poprzez klikniecie prawego przycisku myszy
+
+3. git add README.md
+
+4. git init
+
+5. z:\windows\desktop\lab2>git add .
+
+z:\windows\desktop\lab2>git commit -m "commit first"
+[main 7640757] commit first
+ 2 files changed, 1 insertion(+)
+ create mode 100644 zadaniedomowe_1.txt
+
+z:\windows\desktop\lab2>git push
+
+6. dodany pliktestowy1.txt oraz pliktestowy2.txt
+
+z:\windows\desktop\lab2>git add .
+
+z:\windows\desktop\lab2>git commit -m "commit second"
+[main 3f38511] commit second
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 pliktestowy1.txt
+ create mode 100644 pliktestowy2.txt
+
+z:\windows\desktop\lab2>git push
+
+dodany pliktestowy3.txt
